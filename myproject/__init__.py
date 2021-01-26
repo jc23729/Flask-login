@@ -22,3 +22,4 @@ Migrate(app,db)
 
 # We can now pass in our app to the login manager
 login_manager.init_app(app)
+login_manager.login_view ='login'
