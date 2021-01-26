@@ -9,6 +9,13 @@
     <title></title>
 </head>
 <body>
-  
+  <ul class="nav">
+    <li class="nav-link" ng-href="{{url_for('home')}}">Home</li>
+  </ul>
+  {% block content %}
+
+  {% endblock %}
+
+
 </body>
 </html>
