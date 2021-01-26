@@ -13,6 +13,7 @@ Flask-Migrate = "^2.6.0"
 Werkzeug = "^1.0.1"
 Flask-WTF = "^0.14.3"
 WTForms = "^2.3.3"
+bootstrap4 = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 
