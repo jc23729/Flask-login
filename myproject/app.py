@@ -7,3 +7,6 @@ from myproject.models import User
 from myproject.forms import LoginForm, RegistrationForm
 from werkzeug.security import generate_password_hash, check_password_hash
 
+@app.route('/')
+def home():
+  return render_template('home.html')
